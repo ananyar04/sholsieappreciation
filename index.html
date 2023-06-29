@@ -1,0 +1,78 @@
+<!-- 
+  
+
+
+3. Add your own image into the images folder inside assets. It should have a 5px white border.
+4. The text should be center aligned.
+5. Create a div to contain the h1, p and img elements. Adjust the margins so that the image and text are centered on the page. 
+  Hint: You horizontally center a div by giving it a width of 50% and a margin-left of 25%.
+  Hint: Set the image to have a width of 100% so it fills the div. 
+6. Read about the text-transform property on MDN docs to make the h1 uppercase with CSS.
+  https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform 
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+body{
+  background-color: black;
+}
+h1{
+  font-family: 'Libre Baskerville', serif;
+
+}
+div{
+  color: white;
+  width: 50%;
+  margin-left: 25%;
+  margin-top:  100px;
+  text-align: center;
+  
+}
+img{
+  border: 10px solid white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
+#text{
+  font-size: 12pt;
+  text-transform: uppercase;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+
+}
+#textsmall{
+  font-size: 8pt;
+  text-transform: uppercase;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  
+}
+
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+<body>
+  <div>
+    <img src="./assets/images/daenerys.jpeg" alt="cool shals"/>
+    <br>
+    <h1>SHOLSIES <3</h1>
+    
+    <p id="text"> They may be your bestfriend, but they'll never be her 🧃❤ </p>
+    <br/>
+    <p id="textsmall">if (sholsies==precious): print("I LOVE YOU")&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#ps&nbsp;:&nbsp;there is no else condition.</p>
+  </div>
+  
+</body>
+</html>
